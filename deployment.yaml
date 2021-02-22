@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: "docker-registry.default.svc:5000/myosproject/nginx-hello-world"
+          image: "image-registry.openshift-image-registry.svc:5000/myosproject/nginx-hello-world"
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
           tty: true
